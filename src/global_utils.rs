@@ -117,6 +117,7 @@ pub(crate) fn handle_application_args(
 					}
 				}
 			}
+			"show-percentage" => (ArgTypes::ShowPercentage, None),
 			"style" => continue,
 			"config" => continue,
 			e => {
